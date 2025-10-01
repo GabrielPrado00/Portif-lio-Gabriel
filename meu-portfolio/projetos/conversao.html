@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="pt-br"><head><meta charset="UTF-8">
+<title>Conversão</title><link rel="stylesheet" href="../css/style.css"></head><body>
+<header><h1>Conversão Celsius → Fahrenheit</h1></header>
+<section><input id="c" placeholder="°C" type="number">
+<button onclick="conv()">Converter</button><p id="res"></p></section>
+<script>function conv(){let c=+document.getElementById('c').value;let f=(c*9/5)+32;
+document.getElementById('res').innerText=`${c}°C = ${f}°F`;}</script></body></html>
