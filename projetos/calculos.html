@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="pt-br"><head><meta charset="UTF-8">
+<title>Cálculos</title><link rel="stylesheet" href="../css/style.css"></head><body>
+<header><h1>Cálculos Retângulo</h1></header>
+<section><input id="l" placeholder="Largura" type="number">
+<input id="h" placeholder="Altura" type="number">
+<button onclick="calc()">Calcular</button><p id="res"></p></section>
+<script>function calc(){let l=+document.getElementById('l').value;let h=+document.getElementById('h').value;
+if(l>0&&h>0){let area=l*h;let per=2*(l+h);document.getElementById('res').innerText=`Área:${area} Perímetro:${per}`;}}
+</script></body></html>
